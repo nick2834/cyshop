@@ -1,0 +1,62 @@
+
+    <link rel="stylesheet" href="../css/product.css">
+    <!--详情页轮播图-->
+    <!--<my-lunbo slidelist="productInfo.show"></my-lunbo>-->
+    <img class="materialboxed" width="100%" ng-src="{{productInfo.detail[0]}}">
+    <div class="xx">
+        <ul class="collection">
+            <li class="collection-item">
+                <p>{{productInfo.name}}</p>
+                <p style="color: red;font-size: 18px">{{productInfo.price}}</p>
+                <p style="margin-bottom: 1px"><span style="color:#beb7b7">颜色</span>&nbsp;&nbsp;红、蓝</p>
+            </li>
+            <li class="collection-item">
+                <p><span style="color:#beb7b7">库存：</span>{{productInfo.mount}}</p>
+                <p style="margin-bottom: -5px"><span style="color:#beb7b7">运费：</span>免运费</p>
+            </li>
+            <li class="collection-item" style="height: 40px;margin-top: 10px;color:#beb7b7">
+                <span style="float: left">商品售卖(可支付)</span>
+                <span style="float: right">进入应用></span>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <div class="con2">
+            <p>适用对象：青年</p>
+            <p>款式：单肩包</p>
+            <p>质地：牛皮</p>
+            <p>皮革材料：头层牛皮</p>
+            <p>闭合方式：锁扣</p>
+            <p>图案：纯色</p>
+            <p>成色：全新</p>
+        </div>
+        <div class="pic">
+            <img class="responsive-img" ng-src="{{abc}}" alt="" ng-repeat="abc in productInfo.detail">
+            <!--<img class="responsive-img" src="../images/p-5.jpg" alt="">-->
+            <!--<img class="responsive-img" src="../images/p-2.jpg" alt="">-->
+            <!--<img class="responsive-img" src="../images/p-3.jpg" alt="">-->
+            <!--<img class="responsive-img" src="../images/p-4.jpg" alt="">-->
+            <!--<img class="responsive-img" src="../images/p-7.jpg" alt="">-->
+        </div>
+    </main>
+    <footer>
+        <div class="row">
+            <a class="col s6 waves-effect waves-light btn red" href="#modal1">立即购买</a>
+            <a style="color: black;" onclick="Materialize.toast('添加购物车成功',2000)" class="col s6 waves-effect waves-light btn white">加入购物车</a>
+        </div>
+        <div id="modal1" class="modal">
+            <div class="modal-content row">
+                <p>{{productInfo.name}}</p>
+                <p style="color: red;font-size: 18px">{{productInfo.price}}</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="center modal-action modal-close waves-effect waves-green btn red" onclick="Materialize.toast('下单成功，请前往支付', 2000)">确认下单</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function(){
+            $('.modal').modal();
+            $('.materialboxed').materialbox();
+        });
+    </script>

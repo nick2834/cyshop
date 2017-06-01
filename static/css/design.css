@@ -1,0 +1,48 @@
+body nav {
+  box-shadow: none;
+}
+body .tabs {
+  overflow-x: hidden;
+}
+body .tabs .tab a {
+  color: black;
+  padding: 0;
+}
+body .de-title {
+  background-image: url("../images/de-blackback.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0 10px;
+}
+body .card {
+  margin-top: 0;
+  padding-top: 5px;
+}
+body .card .card-image {
+  width: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+body .card .card-image img {
+  width: 100%;
+}
+body .card .card-content {
+  text-align: center;
+  padding-top: 5px;
+}
+body .card .card-content .card-title {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 5px;
+}
+body .card .card-content p {
+  font-size: 12px;
+}
+body .card .card-content .de-product {
+  margin-bottom: 0;
+}
+body .card .card-content .de-product img {
+  margin: 0 auto;
+}

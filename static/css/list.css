@@ -1,0 +1,112 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\000031}}
+body {
+  font-family: 微软雅黑;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\000034}}
+header {
+  height: 127px;
+  padding: 0px 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border-bottom: 1px solid #e8e7e7;
+}
+/*@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000313}}*/
+/*header a {*/
+  /*display: inline-block;*/
+  /*width: 59px;*/
+  /*height: 55px;*/
+  /*margin-top: 8px;*/
+/*}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000318}}
+header a img {
+  width: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000321}}
+header a span {
+  width: 52px;
+  display: inline-block;
+  color: #444444;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000329}}
+.li {
+  padding: 6px 0;
+  height: 183px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: none;
+  box-shadow: none;
+  border-bottom: 1px solid #e8e7e7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000338}}
+.li dl {
+  width: 138px;
+  height: 183px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000341}}
+.li dl dt {
+  width: 138px;
+  height: 136px;
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000345}}
+.li dl dt img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000349}}
+.li dl dd {
+  width: 100px;
+  height: 48px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000352}}
+.li dl dd span {
+  width: 100%;
+  height: 24px;
+  font-size: 12px;
+  color: #444444;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000361}}
+main {
+  width: 100%;
+  padding: 0 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000364}}
+main ul {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000366}}
+main ul li {
+  width: 100%;
+  height: 72px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #e8e7e7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000371}}
+main ul li a {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000373}}
+main ul li a img {
+  width: 61px;
+  height: 61px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000378}}
+main ul li a div {
+  width: 202px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000381}}
+main ul li a div p {
+  margin-top: -6px;
+  color: #444444;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop\/src\/css\/list\.less}line{font-family:\0000385}}
+main ul li a div span {
+  display: inline-block;
+  margin-top: 10px;
+}

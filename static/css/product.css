@@ -1,0 +1,116 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\000031}}
+body {
+  padding: 0;
+  margin: 0;
+  background: #eeeeee;
+  font-family: 微软雅黑;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\000038}}
+.carousel.carousel-slider {
+  /*height: 285px;*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000310}}
+.carousel.carousel-slider img {
+ /* height: 285px;*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000315}}
+.xx ul {
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000318}}
+.xx ul li p {
+  margin-top: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000324}}
+.pj {
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000325}}
+.pj p {
+  margin-left: 15px;
+  margin-top: -14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000330}}
+.pj ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000334}}
+.pj ul li {
+  width: 53px;
+  height: 24px;
+  text-align: center;
+  background: #f5ece7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000339}}
+.pj ul li a {
+  font-size: 12px;
+  line-height: 25px;
+  color: #7c7877;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000348}}
+.pj .con1 p img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000357}}
+.pj .con1 span {
+  display: inline-block;
+  margin-top: 1px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000363}}
+.pj button {
+  width: 89px;
+  height: 30px;
+  background: white;
+  color: orangered;
+  font-size: 12px;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  margin-left: 36.1%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000374}}
+main {
+  padding: 0 15px;
+  background: white;
+  margin-bottom: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000379}}
+main .con2 p {
+  margin-bottom: -12px;
+  margin-left: 10px;
+  color: #7c7877;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000385}}
+main .pic {
+  padding-bottom: 50px;
+}
+main .pic .responsive-img{
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000389}}
+footer {
+  width: 100%;
+  padding: 0 15px;
+  background: white;
+  position: fixed;
+  bottom: 36px;
+  left: 0;
+  z-index: 9999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/cyshop1\/src\/css\/product\.less}line{font-family:\0000397}}
+footer a {
+  width: 142px;
+  display: inline-block;
+  height: 31px;
+}
+

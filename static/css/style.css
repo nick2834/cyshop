@@ -1,0 +1,111 @@
+.direct{
+	position: fixed;
+	bottom: 0;
+	z-index: 9999;
+}
+.direct .tabs .tab a{
+	color:black;
+	padding: 0;
+	line-height: 56px;
+}
+.direct .tabs {
+	overflow-x: hidden;
+	height:56px;
+}
+.direct .tabs .tab{
+	height: auto;
+}
+.tilcor{
+  color:white;
+  line-height:2.5;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+.drag-target{
+  display:none;
+}
+#sidenav-overlay{
+  opacity:0 !important;
+  position:relative;
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+header .row{
+  margin-bottom: 0;
+}
+header a{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+header a span{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+header a img{
+  display: block;
+  margin: 0 auto;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+#nav-mobile{
+  padding-top:60%;
+}
+#nav-mobile li a{
+  text-indent:20%;
+}
+#nav-mobile li .fa{
+  padding-right:10%;
+  display: block;
+  height: 64px;
+  line-height: 64px;
+}
+#nav-mobile li .fa:before{
+  margin-right:20px;
+}
+.swiper-container-cube{
+  margin-top:10%;
+}
+.swiper-slide img{
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+#sidenav-overlay{
+  display: none;
+}
+.modal{
+  width:95%;
+}

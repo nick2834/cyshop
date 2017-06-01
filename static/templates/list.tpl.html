@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="../css/list.css">
+<header>
+    <div class="row">
+        <a href="#" ng-repeat="info in classify" class="col s3">
+            <img ng-src="{{info.fs}}" alt="">
+            <span>{{info.name}}</span>
+        </a>
+    </div>
+    </header>
+<div class="li">
+    <dl>
+        <dt><img src="../images/g-32.jpg" alt=""></dt>
+        <dd>
+            <span>单肩包 挎包</span>
+        </dd>
+    </dl>
+    <dl>
+        <dt><img src="../images/g-21.jpg" alt=""></dt>
+        <dd>
+            <span>单肩包 挎包</span>
+        </dd>
+    </dl>
+</div>
+<main>
+    <ul>
+        <li  ng-repeat="list in productList"><a href="#" ui-sref="detail({id:list.id})">
+            <img ng-src="{{list.fs}}" alt="">
+            <div>
+                <p>{{list.name}}</p>
+               <span style="color: red;font-size: 16px">{{list.price}}</span>&nbsp;
+               <span style="color: #a8a8a8; font-size: 12px">销量:{{list.mount}}</span>
+            </div>
+        </a></li>
+    </ul>
+</main>
+<script src="../components/jquery/dist/jquery.js"></script>
+<script src="../js/materialize.js"></script>
+<script src="../js/init.js"></script>

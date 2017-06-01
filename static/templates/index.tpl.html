@@ -1,0 +1,28 @@
+<div class="container center"><h6>专题</h6></div>
+<div class="swiper-container" style="margin-top: 0">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" ng-repeat="sss in indexList">
+            <div class="container center"><h4>{{sss.name}}</h4></div>
+            <img src="{{sss.src}}" alt=""/>
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+</div>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        //      loop: true,
+
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+        autoplay : 4000,
+        effect : 'cube',
+        cube: {
+            slideShadows: false,
+            shadow: false,
+            shadowOffset: 100,
+            shadowScale:0.6
+        }
+
+    })
+</script>
